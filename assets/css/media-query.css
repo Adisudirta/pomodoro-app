@@ -1,0 +1,73 @@
+@media screen and (max-width: 1000px){
+    /* ini bagian header  */
+   .container-header h1{
+       font-size: 25px;
+   }
+
+   .container-header nav,
+   .container-header button{
+       display: none;
+   }
+
+   .container-humburger{
+       display: block;
+   }
+
+   nav.show{
+       display: block;
+       position: fixed;
+       width: 100%;
+       top: 70px;
+       left: 0;
+       text-align: center;
+       font-weight: bold;
+       background-image: linear-gradient(to right, rgb(26, 23, 23), rgb(44, 40, 40));
+   }
+
+   nav.show ul{
+       flex-direction: column;
+   }
+
+   nav.show ul li a{
+       color: white;
+   }
+
+   nav.show ul li{
+       margin: 20px 0px;
+   }
+
+   button.show{
+       display: block;
+       margin: 20px auto;
+   }
+
+
+   /* ini bagian banner */
+   .banner{
+       margin-bottom: 20px;
+   }
+
+   .banner .container-banner{
+       flex-direction: column-reverse;
+   }
+
+   /* ini bagian article */
+   .container-aturan ol{
+       flex-direction: column;
+   }
+
+   /* ini bagian timer */
+   .container-timer .item h2, 
+   .container-timer .item p{
+       font-size: 15px;
+   }
+
+   .container-timer .item p{
+       font-size: 15px;
+   }
+
+   .container-timer .item .btn-timer{
+       width: 50px;
+       height: 20px;
+   }
+}

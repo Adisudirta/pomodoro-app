@@ -1,0 +1,33 @@
+aside{
+    padding: 60px 20px 60px 20px;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgb(26, 23, 23), rgb(44, 40, 40));
+}
+
+.container-aside{
+    width: 50%;
+    max-width: 1440px;
+    padding: 40px;
+    text-align: center;
+}
+
+aside h2, aside p{
+    color: white;
+}
+
+aside p{
+    line-height: 20px;
+}
+
+aside h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+aside img{
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}

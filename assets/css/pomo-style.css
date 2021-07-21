@@ -1,0 +1,103 @@
+.main-pomo{
+    background-image: linear-gradient(to right, rgb(255, 123, 123), #2912f0);
+}
+
+.pomodoro{
+    width: 40%;
+    min-width: 350px;
+    height: 100vh;
+    margin: auto;
+    padding-top: 13vh;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: violet; */
+}
+
+.card{
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 2px 3px 15px 5px rgba(0,0,0,0.54);
+}
+
+.container-timer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3vh;
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.container-timer .item{
+    flex-grow: 1;
+    margin: 0px 15px;
+    /* background-color: violet; */
+    align-items: center;
+    text-align: center;
+}
+
+.container-timer .item h2{
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.container-timer .item p{
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 20px 5px;
+    display: inline;
+}
+
+.container-timer .item .btn-timer{
+    width: 100px;
+    height: 40px;
+    margin: 30px auto 10px;
+    display: block;
+    border: none;
+    border-radius: 20px;
+}
+
+.container-todo{
+    padding: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 500px;
+    box-sizing: border-box;
+}
+
+.container-todo h1{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.container-todo form{
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.container-todo form input{
+    width: 85%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.container-todo ul{
+    padding: 5px;
+    height: 175px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.container-todo ul li{
+    margin: 10px 0px;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+}

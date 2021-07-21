@@ -1,0 +1,65 @@
+.banner{
+    /* background-color: lightblue; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 13vh;
+    box-sizing: border-box;
+}
+
+.banner .container-banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    max-width: 1440px;
+}
+
+.container-banner .greeting{
+    flex-basis: 50%;
+}
+
+.container-banner .hero-img{
+    flex-basis: 50%;
+}
+
+.container-banner .greeting h2{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 30px;
+    background: linear-gradient(to right,#fa7d74, #190b8b);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.container-banner .greeting p{
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.btn{
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    background-image: linear-gradient(to right,#fa7d74, #4c53fb);
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+.container-banner .hero-img img{
+    width: 100%;
+}

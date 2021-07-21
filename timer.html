@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/images/tomato.jpg">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <title>PomoApp</title>
+</head>
+<body>
+    <header>
+        <div class="container-header">
+            <h1>PomoApp</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <button>Login / Sign In</button>
+            <div class="container-humburger" id="toggle">
+                <div class="menu-toggle">
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                 </div> 
+             </div>
+        </div>
+    </header>
+    <main class="main-pomo">
+        <section class="pomodoro">
+            <div class="container-timer card">
+                <div class="item">
+                    <h2 class="lebel">Work</h2>
+                    <div id="work-timer" class="timer">
+                        <p id="w_minutes">25</p><p class="semicolon">:</p><p id="w_seconds">00</p>
+                    </div>
+                    <button id="start" class="btn-timer">Start</button>
+                </div>
+                <div class="item">
+                    <h2 class="lebel">Cycles</h2>
+                    <p id="counter" class="timer">0</p>
+                    <button id="stop" class="btn-timer">Pause</button>
+                </div>
+                <div class="item">
+                    <h2 class="lebel">Break</h2>
+                    <div id="break-timer" class="timer">
+                        <p id="b_minutes">05</p><p class="semicolon">:</p><p id="b_seconds">00</p>
+                    </div>
+                    <button id="reset" class="btn-timer">Reset</button>
+                </div>
+            </div>
+            <div class="container-todo card">
+                <h1>Todo List</h1>
+                <form>
+                    <input id="input_place" type="text">
+                    <button id="input_button" type="submit">+</button>
+                </form>
+                <ul id="list_container">
+                    
+                </ul>
+            </div>
+        </section>
+    </main>
+    <aside>
+        <div class="container-aside">
+            <h2>About Developer:</h2>
+            <img src="./assets/images/profile.jpg" alt="profile">
+            <p>Haloo... namaku Adi Sudirtayasa. Aku adalah mahasiswa jurusan teknik informatika, umurku sekarang adalah 19 tahun, aku tinggal di Bali dan hobiku bermain skipping.</p>
+        </div>
+    </aside>
+    <footer>I Wayan Adi Sudirtayasa &copy; 2021</footer>
+    <script src="./assets/script/humburger.js"></script>
+    <script src="./assets/script/timer.js"></script>
+    <script src="./assets/script/todo.js"></script>
+</body>
+</html>
